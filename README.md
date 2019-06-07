@@ -36,7 +36,7 @@ Anagram are words created by rearranging the letters of the original word to mak
 Given a dictionary and an input string, writ a program to find all anagram valid words from the dictionary.
 
 Assume valid words are available in this dictionary. 
-[![Dictionary](https://github.com/tmobil/anagram/blob/master/english.json)](https://github.com/tmobil/anagram/blob/master/english.json)
+(https://github.com/tmobil/anagram/blob/master/english.json)
 
 
 Example:
