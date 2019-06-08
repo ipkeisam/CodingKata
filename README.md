@@ -27,9 +27,7 @@ In this workshop, we will work together to go through one software kata exercise
 We will go over some of the techniques to focus and pratice your kata, and solve problems differently.
 
 
-# Programming Kata
-
-The Bowling Game Kata.
+# The Bowling Game Kata
 
 The bowling game consists of 10 frames.  
 In each frame the player has two opportunities to knock down 10 pins.  
@@ -44,6 +42,7 @@ for that frame is the value of the next two balls rolled.
 In the tenth frame a player who rolls a spare or strike is allowed to roll the extra
 balls to complete the frame.  However no more than three balls can be rolled in
 tenth frame.
+
 
 # Git Kata
 
@@ -70,9 +69,41 @@ You will be working in your own branch. This time we will be working with branch
 5) Create an collaborative directory path /dir/data
 6) The directory should be owned by SystemAdministrators
 7) All files created under this directory should have group permissions
-8) Others should not have any access to this directory
+8) Others should not have any access to this directory#
 
 
-# Openshift Kata
+# Openshift Nexus Kata
+
+1) Create a new project named username-nexus with display name Shared Nexus.
+2) Deploy the Nexus container image and create a route to the Nexus service. 
+3) Pause the automatic deployment upon configuration changes.
+4) Change the deployment strategy from Rolling to Recreate and set requests and limits for memory.
+5) Create a persistent volume claim and mount it at /nexus-data.
+6) Set up liveness and readiness probes for Nexus.
+7) Resume deployment of the Nexus deployment configuration to roll out all changes at once.
 
 
+# Openshift SonarQube Kata
+
+1) Create a new project called username-sonarqube with a display name of Shared Sonarqube
+2) Deploy a persistent PostgreSQL database.
+3) Pick values for the POSTGRESQL_USER, POSTGRESQL_PASSWORD, POSTGRESQL_DATABASE, and VOLUME_CAPACITY parameters.
+4) Make sure that your database is fully up before moving to the next step.
+5) Deploy the SonarQube image (wkulhanek/sonarqube:6.7.5) available in DockerHub.
+6) The image expects SONARQUBE_JDBC_USERNAME, SONARQUBE_JDBC_PASSWORD, and SONARQUBE_JDBC_URL in the environment.
+7) The correct setting for SONARQUBE_JDBC_URL is SONARQUBE_JDBC_URL=jdbc:postgresql://postgresql/<dbname> where "<dbname>" is the name you picked when you set up PostgreSQL.
+8) The source for the Docker image is located at https://github.com/wkulhanek/docker-openshift-sonarqube.git.
+9) Pause rollouts for the created SonarQube deployment configuration.
+10) Set the following parameters
+
+Memory request: 1.5Gi
+Memory limit: 3Gi
+CPU request: 1 CPU
+CPU limit: 2 CPUs
+Set the deployment strategy.
+
+Because SonarQube is using Elasticsearch under the covers, it needs a Recreate deployment strategy rather than the default Rolling deployment strategy.
+
+11) Add liveness and readiness probes.
+12) Resume deployment of the SonarQube deployment configuration to roll out all changes at once.
+13) After SonarQube has fully started, log in via the exposed route. The default user ID is admin and password is admin.
