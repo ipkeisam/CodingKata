@@ -4,9 +4,14 @@ Kata is a Japanese word, meaning a detailed choreographed pattern of movements m
 
 ![banner](https://github.com/ipkeisam/CodingKata/blob/master/images/codeKata.png)
 
-> Kata is a also term used by software engineers in the Software Craftsmanship movement. 
-> Software Engineers who call themselves Software Craftsmen, will write Kata.
-> Software Kata is a small snippet of code written in one sitting, repeatedly, often daily, in order to build up muscle memory and practice their craft.
+Kata is a also term used by software engineers in the Software Craftsmanship movement. 
+Software Engineers who call themselves Software Craftsmen, will write Kata.
+Software Kata is a small snippet of code written in one sitting, repeatedly, often daily, in order to build up muscle memory and practice their craft.
+
+
+![banner](https://github.com/ipkeisam/CodingKata/blob/master/images/code-kata-group.jpg)
+
+![banner](https://github.com/ipkeisam/CodingKata/blob/master/images/code-kata-group2.jpeg)
 
 This workshop aims to provide you with some kata exercises that you can practice. We will go over some of the techniques to focus and pratice your kata, and solve problems differently. These exercises vary from general to more complex algorithms. Remember that coding katas are for practice and improving your skills. You should try to solve it and also find a good solution following best practices of software development. Code Kata is a way to bring these element of practice to software development.
 
