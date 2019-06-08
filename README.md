@@ -11,7 +11,7 @@ Software Kata is a small snippet of code written in one sitting, repeatedly, oft
 
 ![banner](https://github.com/ipkeisam/CodingKata/blob/master/images/code-kata-group.jpg)
 
-![banner](https://github.com/ipkeisam/CodingKata/blob/master/images/code-kata-group2.jpeg)
+
 
 This workshop aims to provide you with some kata exercises that you can practice. We will go over some of the techniques to focus and pratice your kata, and solve problems differently. These exercises vary from general to more complex algorithms. Remember that coding katas are for practice and improving your skills. You should try to solve it and also find a good solution following best practices of software development. Code Kata is a way to bring these element of practice to software development.
 
