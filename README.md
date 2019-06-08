@@ -24,33 +24,55 @@ A good coding kata practice sesison would be as follows:
 5) No pressure and no deadline
 
 In this workshop, we will work together to go through one software kata exercise. 
-I will teach you some of the techniques to focus and pratice your kata, and solve problems differently.
+We will go over some of the techniques to focus and pratice your kata, and solve problems differently.
 
 
-# Kata Objectives
+# Programming Kata
 
-This kata will make you think about algorithms. 
+The Bowling Game Kata.
 
-Anagram are words created by rearranging the letters of the original word to make a new words
+The bowling game consists of 10 frames.  
+In each frame the player has two opportunities to knock down 10 pins.  
+The score for the frame is the total number of pins knocked down, plus bonuses for strikes and spares.
 
-Given a dictionary and an input string, writ a program to find all anagram valid words from the dictionary.
+A spare is when the player knocks down all 10 pins in two tries.  
+The bonus for that frame is the number of pins knocked down by the next roll.  
 
-Assume valid words are available in this dictionary. 
-(https://github.com/tmobil/anagram/blob/master/english.json)
+A strike is when the player knocks down all 10 pins on his first try.  The bonus
+for that frame is the value of the next two balls rolled.
+
+In the tenth frame a player who rolls a spare or strike is allowed to roll the extra
+balls to complete the frame.  However no more than three balls can be rolled in
+tenth frame.
+
+# Git Kata
+
+You will be working in your own branch. This time we will be working with branches in git.
+
+1) Create a branch called greeting and check it out
+2) Edit the greeting.txt to contain your favorite greeting
+3) Add greeting.txt files to the staging area
+4) Commit
+5) Switch back to the master branch
+6) Create a file README.md with information about this repository
+7) Add the README.md file to staging area and make the commit
+8) What is the output of git log --oneline --graph --all?
+9) Diff the branches
+10) Merge the greeting branch into master
 
 
-Example:
+# Linux Kata
 
-> Input: car
+1) Create two users, Ravi and Kumar
+2) Make them members of the second group SystemAdministrators
+3) Ravi should have interactive login shell
+4 )Kumar should have no login shell
+5) Create an collaborative directory path /dir/data
+6) The directory should be owned by SystemAdministrators
+7) All files created under this directory should have group permissions
+8) Others should not have any access to this directory
 
-> Output: arc
 
-> Input: tar
+# Openshift Kata
 
-> Output: rat
 
-> Input: elbow
-
-> Output: below
-
-Feel free to be creative, considering options such as words of differing character lengths, memory and performance considerations for the project.
