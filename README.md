@@ -2,6 +2,8 @@
 
 Kata is a Japanese word, meaning a detailed choreographed pattern of movements made to be practiced alone or within groups when training.
 
+![banner](https://github.com/ipkeisam/CodingKata/blob/master/images/codeKata.png)
+
 > Kata is a also term used by software engineers in the Software Craftsmanship movement. 
 > Software Engineers who call themselves Software Craftsmen, will write Kata.
 > Software Kata is a small snippet of code written in one sitting, repeatedly, often daily, in order to build up muscle memory and practice their craft.
@@ -28,6 +30,8 @@ A good coding kata practice sesison would be as follows:
 
 # The Bowling Game Kata
 
+![banner](https://github.com/ipkeisam/CodingKata/blob/master/images/bowlingGameKata.png)
+
 The bowling game consists of 10 frames.  
 In each frame the player has two opportunities to knock down 10 pins.  
 The score for the frame is the total number of pins knocked down, plus bonuses for strikes and spares.
@@ -42,6 +46,7 @@ In the tenth frame a player who rolls a spare or strike is allowed to roll the e
 balls to complete the frame.  However no more than three balls can be rolled in
 tenth frame.
 
+[Bowling Game Kata Steps with TDD](https://github.com/ipkeisam/CodingKata/blob/master/ppt/Bowling%20Game%20Kata.ppt)
 
 # Git Kata
 
